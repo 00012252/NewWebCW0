@@ -1,7 +1,7 @@
-window.onload = () => {     //window.onload processes load events after the element has finished loading.    
-  setTimeout(() => {               //setTimeout executes once after a specified interval 
+window.onload = () => {     //window.onload processes load events after the element has finished loading    
+  setTimeout(() => {         //setTimeout executes once after a specified interval 
     document.querySelector("body").classList.add("display");
-  }, 4000);
+  }, 100);
 };
 
 document.querySelector(".hamburger-menu").addEventListener("click", () => {         //if hamburger menu is clicked
@@ -18,4 +18,3 @@ document.querySelector(".scroll-btn").addEventListener("click", () => {         
     document.querySelector("html").style.scrollBehavior = "unset";
   }, 1000);
 });
-
